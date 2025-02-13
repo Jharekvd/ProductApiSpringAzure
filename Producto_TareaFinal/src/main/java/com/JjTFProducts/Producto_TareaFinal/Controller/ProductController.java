@@ -39,7 +39,7 @@ public class ProductController {
 
     /**
      * Obtiene un producto específico por su ID.
-     * @param productID ID del producto a buscar.
+     * @param productID id del producto a buscar.
      * @return ResponseEntity con el producto encontrado y código de estado 200 (OK).
      */
     @GetMapping("/products/{productID}")
@@ -50,7 +50,7 @@ public class ProductController {
 
     /**
      * Elimina un producto de la base de datos por su ID.
-     * @param productID ID del producto a eliminar.
+     * @param productID id del producto a eliminar.
      * @return ResponseEntity con el producto eliminado y código de estado 200 (OK).
      */
     @DeleteMapping("/products/{productID}")
@@ -61,7 +61,7 @@ public class ProductController {
 
     /**
      * Actualiza la información de un producto específico.
-     * @param productID ID del producto a actualizar.
+     * @param productID id del producto a actualizar.
      * @param product Datos actualizados del producto.
      * @return ResponseEntity con el producto actualizado y código de estado 200 (OK).
      */
