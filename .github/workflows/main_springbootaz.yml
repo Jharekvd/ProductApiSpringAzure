@@ -28,7 +28,7 @@ jobs:
         run: ls -R
         
       - name: Build with Maven
-        working-directory: ProductApiSpringAzure/Producto_TareaFinal
+        working-directory: Producto_TareaFinal
         run: mvn clean install
 
       - name: Upload artifact for deployment job
