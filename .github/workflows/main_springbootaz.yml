@@ -23,16 +23,19 @@ jobs:
         with:
           java-version: '21'
           distribution: 'microsoft'
-
+          
+      - name: Mostrar estructura de archivos (para depuración)
+        run: ls -R
+        
       - name: Build with Maven
-        working-directory: ${{ github.workspace }}/ProductApiSpringAzure
+        working-directory: ProductApiSpringAzure/Producto_TareaFinal
         run: mvn clean install
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: '${{ github.workspace }}/ProductApiSpringAzure/target/*.jar'
+          path: '${{ github.workspace }}/ProductApiSpringAzure/Producto_TareaFinal/target/*.jar'
 
   deploy:
     runs-on: windows-latest
