@@ -1,15 +1,19 @@
 # 📌 Especificaciones de la Aplicación
 
-## 📌 Descripción General
-Esta aplicación gestiona productos permitiendo operaciones CRUD (Crear, Leer, Actualizar y Eliminar). Está desarrollada en **Java con Spring Boot** y utiliza **JPA para la persistencia de datos**.
+## 📌 Descripción
+Esta aplicación gestiona productos permitiendo operaciones CRUD (Crear, Leer, Actualizar y Eliminar). Está desarrollada en **Java con Spring Boot**(IntelliJ IDEA) y utiliza **JPA para la persistencia de datos**.
+Base de datos usada **SQLServer**, **grupo de recursos** ,despligue de proyecto con **App Service**, **Git Hub Action** en **Azure**
 
 ## 📌 Tecnologías Utilizadas
 - **Spring Boot** (para la arquitectura backend)
 - **Spring Data JPA** (para la gestión de la base de datos)
 - **Spring Validation** (para validaciones)
 - **Spring Exception Handling** (para el manejo de excepciones)
-- **Base de Datos** (puede ser PostgreSQL, MySQL, H2, etc.)
-
+- **Base de Dato** (MySQL Worbench)
+- **Azure:** 
+- **Base de Dato** (SQLServer)
+- **Git Hub Action** (.yml)
+- **Despliegue de App** (App Service)
 ## 📌 Funcionalidades
 
 ### 🟢 Gestión de Productos
@@ -75,3 +79,5 @@ Si un producto no se encuentra:
 
 ---
 ### 🚀 Desarrollado con Spring Boot 🚀
+
+
